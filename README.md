@@ -20,10 +20,11 @@ Custom Java implementations of core data structures and algorithm exercises, bui
 ## How to Run
 
 Most files are self-contained — just compile and run:
-\`\`\`
+```
 javac LinkedListDemo.java
 java LinkedListDemo
-\`\`\`
+```
+
 `RecursionDemo.java` is the exception — it needs `recursion_input.txt` in the same folder and will also prompt you for console input (a Fibonacci term and array length) when run.
 
 ## Author
