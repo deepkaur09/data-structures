@@ -14,14 +14,17 @@ Custom Java implementations of core data structures and algorithm exercises, bui
 | `BinaryTreeDemo.java` | Generic binary tree with subtree access and serialization |
 | `BSTDemo.java` | Binary search tree with add, contains, and delete |
 | `PostfixEvalDemo.java` | Evaluates postfix (RPN) expressions using a stack |
+| `RecursionDemo.java` | Recursive Fibonacci, array fill/count, and vowel counting from a file |
+| `recursion_input.txt` | Sample input file used by `RecursionDemo.java` for vowel counting |
 
 ## How to Run
 
-Each file is self-contained. Compile and run any one individually, e.g.:
+Most files are self-contained — just compile and run:
 \`\`\`
 javac LinkedListDemo.java
 java LinkedListDemo
 \`\`\`
+`RecursionDemo.java` is the exception — it needs `recursion_input.txt` in the same folder and will also prompt you for console input (a Fibonacci term and array length) when run.
 
 ## Author
 
